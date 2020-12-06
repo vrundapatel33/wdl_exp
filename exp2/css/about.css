@@ -1,0 +1,108 @@
+body{
+    background-image:url("../images/b28.jpg") ;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1{ 
+  margin-top: 150px; 
+  text-align: center; 
+  color:#ccffcc; 
+} 
+
+p{
+ top:200px;
+ text-align: center;
+ font-size: 22px;
+ font-weight: 900;
+ color:#ccffcc;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: hsl(0,100%,70%);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000; 
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* #mySidenav a { */
+    /* position: absolute; Position them relative to the browser window */
+    /* left: -80px; Position them outside of the screen */
+    /* transition: 0.20s; Add transition on hover */
+    /* padding: 15px; 15px padding */
+    /* width: 200px; Set a specific width */
+    /* text-decoration: none; Remove underline */
+    /* font-size: 20px; Increase font size */
+    /* color: white; White text color */
+    /* border-radius: 0 5px 5px 0; Rounded corners on the top right and bottom right side */
+  /* } */
+  
+  /* #mySidenav a:hover { */
+    /* left: 0; On mouse-over, make the elements appear as they should */
+  /* } */
+
+  /* #Home { */
+    /* top: 150px;  */
+    /* background-color: #48d09b;  */
+  /* }  */
+  
+  /* The about link: 20px from the top with a green background */
+   /* #AboutMe {  */
+     /* top: 220px;  */
+     /* background-color: #4CAF50;  */
+   /* }  */
+  
+  /* #skills { */
+    /* top: 290px; */
+    /* background-color: #2196F3; Blue */
+  /* } */
+  
+  /* #projects { */
+    /* top: 290px; */
+    /* background-color: #f44336; Red */
+  /* } */
+  
+  /* #contact { */
+    /* top: 360px; */
+    /* background-color: #555 Light Black */
+  /* } */
+
+   
